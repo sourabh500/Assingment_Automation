@@ -1,0 +1,26 @@
+Test Case Id    Test Scenario          Test Case Title                                                        Test Steps                                                                        Expected Result                                                            Priority          Status
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tc_001          Ts_001_Payment   Validating Successfull order placed message after placing the order       
+                                                                                                                                                                                                                                                                            High              Pass
+
+                                                                                                          1.Launch browser                                                                    1. User should able to login to account and
+                                                                                                          2.User Navigate to url 'http://automationexercise.com'                               Navigate to Home page
+                                                                                                          3.User Verify that "Login to your account" text is visible successfully             2. User should able to add the product to cart 
+                                                                                                          4.User Enters "shuklasourabh50@gmail.com" into "Email Address"                       and do checkout
+                                                                                                          5.User Enter "Sourabh@1" into "Password"                                            3. User should be able to do payment by entering card
+                                                                                                          6.User Click on "View Product"                                                         details
+                                                                                                          7.UserClick on "Add to cart"                                                        4. User should be able to verify Success message of order placed
+                                                                                                          8.UserClick on "View Cart" and verify product name as "Men Tshirt"                     'Your order has been placed successfully!'
+
+                                                                                                          9.User Click on "Proceed To Checkout" and
+                                                                                                            verify "Address Details" and "Review Your Order" Text
+                                                                                                          10.Click on "Place Order"
+                                                                                                          11.Enter "vivek" into "name_on_card"
+                                                                                                          12.Enter "123456789" into "card_number"
+                                                                                                          13.Enter "345" into "expiry. 311"
+                                                                                                          14.Enter "10" into "Month"
+                                                                                                          15.Enter "2028" into "Year"
+                                                                                                          16.User Click on "Pay and Confirm Order"
+                                                                                                          17.User Click on "Order Placed!"
+                                                                                                          18.Verify success message 'Your order has been placed successfully!'
+
